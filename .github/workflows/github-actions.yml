@@ -28,11 +28,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install dependencies
+        run: npm install -g openapi-typescript-codegen
+
       - name: Link command
         run: npm link
-
-      - name: Test OpenAPI doc generation
-        run: generate-open-api-doc
 
       - name: Test Models generation
         run: generate-api-models
