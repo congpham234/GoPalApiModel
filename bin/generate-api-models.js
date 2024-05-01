@@ -16,7 +16,7 @@ function main() {
   executeCommand("generate-open-api-doc");
 
   // Run the OpenAPI command to generate client code
-  executeCommand("openapi --input ./openapi/GoPal.openapi.json --output ./generated --client xhr");
+  executeCommand("openapi --name GoPal --input ./openapi/GoPal.openapi.json --output ./generated --client xhr");
 }
 
 main();
