@@ -1,14 +1,14 @@
 $version: "2.0"
 
-namespace smithy.example
+namespace gopal
 
 use aws.protocols#restJson1
 
 /// Provides weather forecasts
 @paginated(inputToken: "nextToken", outputToken: "nextToken", pageSize: "pageSize")
 @restJson1
-@title("Weather Service")
-service Weather {
+@title("GoPal API Model")
+service GoPal {
     version: "2006-03-01"
     resources: [City]
     operations: [GetCurrentTime]

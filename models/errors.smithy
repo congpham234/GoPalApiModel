@@ -1,6 +1,6 @@
 $version: "2.0"
 
-namespace smithy.example
+namespace gopal
 
 // "error" is a trait that is used to specialize
 // a structure as an error.

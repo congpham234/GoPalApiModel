@@ -1,6 +1,6 @@
 $version: "2.0"
 
-namespace smithy.example
+namespace gopal
 
 // In Smithy, example values of input structure members and the
 // corresponding output or error structure members for an operation
