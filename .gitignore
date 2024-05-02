@@ -1,6 +1,6 @@
 node_modules
-openapi-spec.json
 generated
 build
 openapi
 smithy
+smithy-build.json
