@@ -9,18 +9,8 @@ use aws.protocols#restJson1
 @restJson1
 @title("GoPal API Model")
 service GoPal {
-    version: "2006-03-01"
-    resources: [City]
-    operations: [GetCurrentTime]
-    // Add common errors that could be thrown by any route in the service
-    errors: [ServiceError, ThrottlingError]
-}
-
-@readonly
-@http(method: "GET", uri: "/current-time")
-operation GetCurrentTime {
-    output := {
-        @required
-        time: Timestamp
-    }
+    version: "2024-05-01"
+    operations: [
+        GetItinerary
+    ]
 }

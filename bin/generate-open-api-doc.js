@@ -3,12 +3,10 @@ var shell = require("shelljs");
 const installSmithyOnLinux = require("./install-smithy-on-linux");
 const installSmithyOnMac = require("./install-smithy-on-mac");
 
-// Ensure shell commands are executed in sequence
 function installAndBuild() {
-  // Check if the operating system is Linux
   if (process.platform === 'linux') {
     installSmithyOnLinux();
-  } else if (process.platform === 'darwin') { // macOS is identified by 'darwin'
+  } else if (process.platform === 'darwin') {
     installSmithyOnMac();
   } else {
     shell.echo('Unsupported platform. This script runs on Linux and macOS only.');

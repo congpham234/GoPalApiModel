@@ -4,19 +4,17 @@
   "outputDirectory": "./smithy",
   "maven": {
     "dependencies": [
-      "software.amazon.smithy:smithy-openapi:1.47.0",
-      "software.amazon.smithy:smithy-aws-traits:1.47.0"
+      "software.amazon.smithy:smithy-openapi:1.48.0",
+      "software.amazon.smithy:smithy-openapi-traits:1.48.0",
+      "software.amazon.smithy:smithy-aws-traits:1.48.0",
+      "software.amazon.smithy:smithy-aws-apigateway-openapi:1.48.0"
     ]
   },
-  "projections": {
-    "openapi-conversion": {
-      "plugins": {
-        "openapi": {
-          "service": "gopal#GoPal",
-          "protocol": "aws.protocols#restJson1",
-          "version": "3.1.0"
-        }
-      }
+  "plugins": {
+    "openapi": {
+      "version": "3.1.0",
+      "service": "gopal#GoPal",
+      "protocol": "aws.protocols#restJson1"
     }
   }
 }
