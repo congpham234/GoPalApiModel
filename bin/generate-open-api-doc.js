@@ -2,7 +2,6 @@
 var shell = require("shelljs");
 const installSmithyOnLinux = require("./install-smithy-on-linux");
 const installSmithyOnMac = require("./install-smithy-on-mac");
-const createSmithyConfig = require("./create-smithy-config");
 
 function installAndBuild() {
   if (process.platform === 'linux') {
@@ -13,8 +12,6 @@ function installAndBuild() {
     shell.echo('Unsupported platform. This script runs on Linux and macOS only.');
     shell.exit(1);
   }
-
-  createSmithyConfig();
 
   // Run smithy build
   shell.echo('Running smithy build...');

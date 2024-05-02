@@ -1,6 +1,4 @@
 node_modules
-generated
 build
-openapi
 smithy
 smithy-build.json
