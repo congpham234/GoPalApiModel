@@ -3,8 +3,8 @@ const path = require('path');
 
 const copyOpenApiJsonToFolder = function () {
   // Copy the openApi folder in build/smithy/openapi-conversion folder to the root directory.
-  const sourceDir = path.join(__dirname, '..', 'smithy', 'source', 'openapi');
-  const targetDir = path.join(__dirname, '..', 'openapi');
+  const sourceDir = path.join('.', 'smithy', 'source', 'openapi');
+  const targetDir = path.join('.', 'openapi');
 
   try {
     fs.copySync(sourceDir, targetDir);
