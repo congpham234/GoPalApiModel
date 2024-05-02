@@ -6,6 +6,7 @@
     "generate-open-api-doc": "bin/generate-open-api-doc.js",
     "generate-api-models": "bin/generate-api-models.js"
   },
+  "main": "index.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/congpham234/GoPalApiModel.git"
