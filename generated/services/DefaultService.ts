@@ -19,7 +19,7 @@ export class DefaultService {
     ): CancelablePromise<GetItineraryResponseContent> {
         return this.httpRequest.request({
             method: 'POST',
-            url: '/v1/plantrip',
+            url: '/v1/get-itinerary',
             body: requestBody,
             mediaType: 'application/json',
             errors: {

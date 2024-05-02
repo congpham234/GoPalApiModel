@@ -6,7 +6,7 @@
         "description": "Provides weather forecasts"
     },
     "paths": {
-        "/v1/plantrip": {
+        "/v1/get-itinerary": {
             "post": {
                 "description": "This API returns an AI generated trip planning from input",
                 "operationId": "GetItinerary",

@@ -4,7 +4,7 @@ namespace gopal
 
 @http(
     method: "POST",
-    uri: "/v1/plantrip",
+    uri: "/v1/get-itinerary",
     code: 200,
 )
 @documentation("This API returns an AI generated trip planning from input")
