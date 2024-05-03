@@ -33,6 +33,7 @@ structure GetItineraryRequest {
 
 @output
 structure GetItineraryResponse {
+  country: String
   destination: String
   destinationImageUrl: String
   placesToStay: PlacesToStay

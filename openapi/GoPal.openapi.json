@@ -89,6 +89,9 @@
             "GetItineraryResponseContent": {
                 "type": "object",
                 "properties": {
+                    "country": {
+                        "type": "string"
+                    },
                     "destination": {
                         "type": "string"
                     },
