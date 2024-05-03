@@ -7,5 +7,6 @@ export type GetItineraryRequestContent = {
     startDate: string;
     endDate: string;
     numOfPeople: number;
+    country: string;
 };
 

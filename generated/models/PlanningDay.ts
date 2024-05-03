@@ -3,10 +3,10 @@
 /* tslint:disable */
 /* eslint-disable */
 export type PlanningDay = {
-    dayNumber?: number;
-    title?: string;
-    location?: string;
+    dayNumber: number;
+    title: string;
+    location: string;
+    description: string;
     locationImageUrl?: string;
-    description?: string;
 };
 

@@ -27,23 +27,20 @@ structure GetItineraryRequest {
   endDate: Timestamp
   @required
   numOfPeople: Integer
+  @required
+  country: String
 }
 
 @output
 structure GetItineraryResponse {
-    country: String
-    destination: String
-    destinationImageUrl: String
-    placesToStay: PlacesToStay
-    planningDays: PlanningDays
+  destination: String
+  destinationImageUrl: String
+  placesToStay: PlacesToStay
+  planningDays: PlanningDays
 }
 
 list PlacesToStay {
   member: PlaceToStay
-}
-
-list PlanningDays {
-  member: PlanningDay
 }
 
 structure PlaceToStay {
@@ -56,10 +53,18 @@ structure PlaceToStay {
   currency: String
 }
 
+list PlanningDays {
+  member: PlanningDay
+}
+
 structure PlanningDay {
+  @required
   dayNumber: Integer
+  @required
   title: String
+  @required
   location: String
-  locationImageUrl: String
+  @required
   description: String
+  locationImageUrl: String
 }
