@@ -10,11 +10,12 @@ export { CancelablePromise, CancelError } from './core/CancelablePromise';
 export { OpenAPI } from './core/OpenAPI';
 export type { OpenAPIConfig } from './core/OpenAPI';
 
+export type { Activity } from './models/Activity';
+export type { Day } from './models/Day';
 export type { GetItineraryRequestContent } from './models/GetItineraryRequestContent';
 export type { GetItineraryResponseContent } from './models/GetItineraryResponseContent';
 export type { NotFoundExceptionResponseContent } from './models/NotFoundExceptionResponseContent';
 export type { PlaceToStay } from './models/PlaceToStay';
-export type { PlanningDay } from './models/PlanningDay';
 export type { TerminalExceptionResponseContent } from './models/TerminalExceptionResponseContent';
 
 export { DefaultService } from './services/DefaultService';

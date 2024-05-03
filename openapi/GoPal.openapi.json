@@ -57,6 +57,46 @@
     },
     "components": {
         "schemas": {
+            "Activity": {
+                "type": "object",
+                "properties": {
+                    "activityName": {
+                        "type": "string"
+                    },
+                    "location": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "locationImageUrl": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "activityName",
+                    "description",
+                    "location"
+                ]
+            },
+            "Day": {
+                "type": "object",
+                "properties": {
+                    "dayNumber": {
+                        "type": "number"
+                    },
+                    "activities": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Activity"
+                        }
+                    }
+                },
+                "required": [
+                    "activities",
+                    "dayNumber"
+                ]
+            },
             "GetItineraryRequestContent": {
                 "type": "object",
                 "properties": {
@@ -107,7 +147,7 @@
                     "planningDays": {
                         "type": "array",
                         "items": {
-                            "$ref": "#/components/schemas/PlanningDay"
+                            "$ref": "#/components/schemas/Day"
                         }
                     }
                 }
@@ -148,32 +188,6 @@
                 },
                 "required": [
                     "name"
-                ]
-            },
-            "PlanningDay": {
-                "type": "object",
-                "properties": {
-                    "dayNumber": {
-                        "type": "number"
-                    },
-                    "title": {
-                        "type": "string"
-                    },
-                    "location": {
-                        "type": "string"
-                    },
-                    "description": {
-                        "type": "string"
-                    },
-                    "locationImageUrl": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "dayNumber",
-                    "description",
-                    "location",
-                    "title"
                 ]
             },
             "TerminalExceptionResponseContent": {

@@ -37,7 +37,7 @@ structure GetItineraryResponse {
   destination: String
   destinationImageUrl: String
   placesToStay: PlacesToStay
-  planningDays: PlanningDays
+  planningDays: Days
 }
 
 list PlacesToStay {
@@ -55,15 +55,24 @@ structure PlaceToStay {
   photoUrl: String
 }
 
-list PlanningDays {
-  member: PlanningDay
+list Days {
+  member: Day
 }
 
-structure PlanningDay {
+structure Day {
   @required
   dayNumber: Integer
   @required
-  title: String
+  activities: Activities
+}
+
+list Activities {
+  member: Activity
+}
+
+structure Activity {
+  @required
+  activityName: String
   @required
   location: String
   @required

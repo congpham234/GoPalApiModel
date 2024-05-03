@@ -2,9 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type PlanningDay = {
-    dayNumber: number;
-    title: string;
+export type Activity = {
+    activityName: string;
     location: string;
     description: string;
     locationImageUrl?: string;
