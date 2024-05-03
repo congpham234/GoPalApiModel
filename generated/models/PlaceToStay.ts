@@ -5,8 +5,9 @@
 export type PlaceToStay = {
     name: string;
     reviewScore?: number;
-    numOfReviews?: number;
+    reviewCount?: number;
     suggestedPrice?: number;
     currency?: string;
+    photoUrl?: string;
 };
 

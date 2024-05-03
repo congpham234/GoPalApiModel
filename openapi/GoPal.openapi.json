@@ -130,13 +130,16 @@
                         "minimum": 1,
                         "format": "float"
                     },
-                    "numOfReviews": {
+                    "reviewCount": {
                         "type": "number"
                     },
                     "suggestedPrice": {
                         "type": "number"
                     },
                     "currency": {
+                        "type": "string"
+                    },
+                    "photoUrl": {
                         "type": "string"
                     }
                 },
