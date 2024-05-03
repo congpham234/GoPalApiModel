@@ -2,5 +2,5 @@ $version: "2"
 
 namespace gopal
 
-@timestampFormat("date-time")
-timestamp Timestamp
+@pattern("^[0-9]{4}-[0-9]{2}-[0-9]{2}$")
+string Date

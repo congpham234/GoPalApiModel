@@ -22,9 +22,9 @@ structure GetItineraryRequest {
   @required
   destination: String
   @required
-  startDate: Timestamp
+  startDate: Date
   @required
-  endDate: Timestamp
+  endDate: Date
   @required
   numOfPeople: Integer
   @required
