@@ -48,9 +48,10 @@ structure PlaceToStay {
   name: String
   @range(min: 1, max: 10)
   reviewScore: Float
-  numOfReviews: Integer
+  reviewCount: Integer
   suggestedPrice: BigDecimal
   currency: String
+  photoUrl: String
 }
 
 list PlanningDays {
