@@ -4,8 +4,7 @@ namespace gopal
 
 use aws.protocols#restJson1
 
-/// Provides weather forecasts
-@paginated(inputToken: "nextToken", outputToken: "nextToken", pageSize: "pageSize")
+/// Provides GoPal API Model
 @restJson1
 @title("GoPal API Model")
 service GoPal {
