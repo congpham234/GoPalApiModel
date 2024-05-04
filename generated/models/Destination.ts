@@ -3,13 +3,13 @@
 /* tslint:disable */
 /* eslint-disable */
 export type Destination = {
-    destId?: string;
-    destType?: string;
-    cityName?: string;
-    label?: string;
+    name: string;
+    destId: string;
+    destType: string;
+    label: string;
+    country: string;
+    imageUrl: string;
     region?: string;
-    name?: string;
-    country?: string;
-    imageUrl?: string;
+    cityName?: string;
 };
 

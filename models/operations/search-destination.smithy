@@ -35,12 +35,18 @@ list Destinations {
 }
 
 structure Destination {
-  destId: String
-  destType: String
-  cityName: String
-  label: String
-  region: String
+  @required
   name: String
+  @required
+  destId: String
+  @required
+  destType: String
+  @required
+  label: String
+  @required
   country: String
+  @required
   imageUrl: String
+  region: String
+  cityName: String
 }

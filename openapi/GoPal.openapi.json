@@ -149,22 +149,16 @@
             "Destination": {
                 "type": "object",
                 "properties": {
+                    "name": {
+                        "type": "string"
+                    },
                     "destId": {
                         "type": "string"
                     },
                     "destType": {
                         "type": "string"
                     },
-                    "cityName": {
-                        "type": "string"
-                    },
                     "label": {
-                        "type": "string"
-                    },
-                    "region": {
-                        "type": "string"
-                    },
-                    "name": {
                         "type": "string"
                     },
                     "country": {
@@ -172,8 +166,22 @@
                     },
                     "imageUrl": {
                         "type": "string"
+                    },
+                    "region": {
+                        "type": "string"
+                    },
+                    "cityName": {
+                        "type": "string"
                     }
-                }
+                },
+                "required": [
+                    "country",
+                    "destId",
+                    "destType",
+                    "imageUrl",
+                    "label",
+                    "name"
+                ]
             },
             "GetItineraryRequestContent": {
                 "type": "object",
