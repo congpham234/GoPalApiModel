@@ -1,0 +1,130 @@
+// Input
+{
+  "destination":     {
+      "label": "Ho Chi Minh City, Ho Chi Minh Municipality, Vietnam",
+      "region": "Ho Chi Minh Municipality",
+      "name": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "destId": "-3730078",
+      "destType": "city",
+      "cityName": "Ho Chi Minh City",
+      "imageUrl": "https://cf.bstatic.com/xdata/images/city/150x150/688892.jpg?k=ab98c6d1cae80333bbd3129cfeb692f9fd1b17caa359d2fb4fdf35a4160e5ccf&o="
+    },
+  "startDate": "2024-05-30",
+  "endDate": "2024-06-02",
+  "numOfPeople": 1
+}
+
+
+// Output
+{
+  "placesToStay": [
+    {
+      "name": "Coast Casa Landmark 81",
+      "reviewScore": 10,
+      "reviewCount": 3,
+      "suggestedPrice": 231.228876358941,
+      "currency": "USD",
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/550984545.jpg?k=9259a9d3c93bdc46a4f9345c72f67528edb540bcc19156a21b7c1e889b06420c&o="
+    },
+    {
+      "name": "Shogun Hotel",
+      "reviewScore": 9.1,
+      "reviewCount": 218,
+      "suggestedPrice": 47.2133338603666,
+      "currency": "USD",
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/494872778.jpg?k=9b89cf2d6b5b9f94e5894cd21b7027caec13a8351f7ee6a688321c7c1ec43fdc&o="
+    },
+    {
+      "name": "Galaxy Boutique Sai Gon Central Hotel",
+      "reviewScore": 8,
+      "reviewCount": 669,
+      "suggestedPrice": 56.05,
+      "currency": "USD",
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/410511403.jpg?k=367e4a1c87aec0c87bd7d138051ac68c3dc2221499e7d52b04178fcc6471e821&o="
+    },
+    {
+      "name": "G9 Homestay - Đề Thám",
+      "reviewScore": 8.8,
+      "reviewCount": 242,
+      "suggestedPrice": 106.033278961407,
+      "currency": "USD",
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/443155154.jpg?k=9059a3378bbd1bd93ba1cdca8c2d0585159f48991623363ce5680d750a5d087b&o="
+    },
+    {
+      "name": "Alex House Saigon - Serviced Apartment",
+      "reviewScore": 8.2,
+      "reviewCount": 194,
+      "suggestedPrice": 85.5151509545889,
+      "currency": "USD",
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/255871267.jpg?k=e120f6f3d7c6c0c00e3ec32bc8775263678badfb1c761e25291f9dd6ca998460&o="
+    }
+  ],
+  "planningDays": [
+    {
+      "dayNumber": 1,
+      "activities": [
+        {
+          "activityName": "Visiting the War Remnants Museum",
+          "location": "War Remnants Museum",
+          "description": "Learn about the Vietnam War and its impact on the country through exhibits and displays at this museum."
+        },
+        {
+          "activityName": "Exploring Ben Thanh Market",
+          "location": "Ben Thanh Market",
+          "description": "Shop for souvenirs, local goods, and enjoy delicious street food in this bustling market."
+        },
+        {
+          "activityName": "Taking a stroll along Nguyen Hue Walking Street",
+          "location": "Nguyen Hue Walking Street",
+          "description": "Experience the lively atmosphere, street performances, and city lights in the evening."
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "activities": [
+        {
+          "activityName": "Visiting the Reunification Palace",
+          "location": "Reunification Palace",
+          "description": "Explore the former presidential palace and learn about Vietnam's history."
+        },
+        {
+          "activityName": "Walking around Notre-Dame Cathedral Basilica of Saigon",
+          "location": "Notre-Dame Cathedral Basilica of Saigon",
+          "description": "Admire the stunning architecture of this iconic church in the heart of the city."
+        },
+        {
+          "activityName": "Cruising along Saigon River",
+          "location": "Saigon River",
+          "description": "Enjoy a relaxing cruise along the river with beautiful views of the city skyline."
+        },
+        {
+          "activityName": "Indulging in Vietnamese street food at Saigon Street Eats",
+          "location": "Various street food stalls",
+          "description": "Satisfy your taste buds with an array of delicious local dishes and snacks."
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "activities": [
+        {
+          "activityName": "Exploring Cu Chi Tunnels",
+          "location": "Cu Chi Tunnels",
+          "description": "Discover the underground network of tunnels used by the Viet Cong during the Vietnam War."
+        },
+        {
+          "activityName": "Visiting Jade Emperor Pagoda",
+          "location": "Jade Emperor Pagoda",
+          "description": "Marvel at the intricate architecture and religious significance of this Taoist pagoda."
+        },
+        {
+          "activityName": "Shopping at Saigon Square",
+          "location": "Saigon Square",
+          "description": "Browse through a wide selection of clothing, accessories, and handicrafts at this popular shopping destination."
+        }
+      ]
+    }
+  ]
+}

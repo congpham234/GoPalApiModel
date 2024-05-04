@@ -1,0 +1,58 @@
+// Input
+query="Ho Chi Minh City"
+
+
+// Output
+{
+  "destinations": [
+    {
+      "label": "Ho Chi Minh City, Ho Chi Minh Municipality, Vietnam",
+      "region": "Ho Chi Minh Municipality",
+      "name": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "destId": "-3730078",
+      "destType": "city",
+      "cityName": "Ho Chi Minh City",
+      "imageUrl": "https://cf.bstatic.com/xdata/images/city/150x150/688892.jpg?k=ab98c6d1cae80333bbd3129cfeb692f9fd1b17caa359d2fb4fdf35a4160e5ccf&o="
+    },
+    {
+      "label": "District 1, Ho Chi Minh City, Ho Chi Minh Municipality, Vietnam",
+      "region": "Ho Chi Minh Municipality",
+      "name": "District 1",
+      "country": "Vietnam",
+      "destId": "2088",
+      "destType": "district",
+      "cityName": "Ho Chi Minh City",
+      "imageUrl": "https://cf.bstatic.com/xdata/images/district/150x150/39099.jpg?k=1b6dac33813606647451aadad504d8140f7779e59db3776ab858f0cbb7dde120&o="
+    },
+    {
+      "label": "Ho Chi Minh City-Centre, Ho Chi Minh City, Ho Chi Minh Municipality, Vietnam",
+      "region": "Ho Chi Minh Municipality",
+      "name": "Ho Chi Minh City-Centre",
+      "country": "Vietnam",
+      "destId": "6750",
+      "destType": "district",
+      "cityName": "Ho Chi Minh City",
+      "imageUrl": "https://cf.bstatic.com/xdata/images/district/150x150/39206.jpg?k=bc6c4d7c4aab9f8a29016ae91b5705553e08c0dd0baf09199f92adfd8b31eccb&o="
+    },
+    {
+      "label": "Ho Chi Minh City Museum, Ho Chi Minh City, Ho Chi Minh Municipality, Vietnam",
+      "region": "Ho Chi Minh Municipality",
+      "name": "Ho Chi Minh City Museum",
+      "country": "Vietnam",
+      "destId": "234878",
+      "destType": "landmark",
+      "cityName": "Ho Chi Minh City"
+    },
+    {
+      "label": "Somerset Ho Chi Minh City, Ho Chi Minh City, Ho Chi Minh Municipality, Vietnam",
+      "region": "Ho Chi Minh Municipality",
+      "name": "Somerset Ho Chi Minh City",
+      "country": "Vietnam",
+      "destId": "191363",
+      "destType": "hotel",
+      "cityName": "Ho Chi Minh City",
+      "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/150x150/269467702.jpg?k=a18f725fe83e6b365f3eff3a052feb62a4e631a592e8ee21fb44674b54b1ead3&o="
+    }
+  ]
+}
