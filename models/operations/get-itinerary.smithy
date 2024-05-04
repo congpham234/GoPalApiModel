@@ -20,15 +20,13 @@ operation GetItinerary {
 @input
 structure GetItineraryRequest {
   @required
-  destination: String
+  destId: String
   @required
   startDate: Date
   @required
   endDate: Date
   @required
   numOfPeople: Integer
-  @required
-  country: String
 }
 
 @output

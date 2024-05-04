@@ -11,5 +11,6 @@ service GoPal {
     version: "2024-05-01"
     operations: [
         GetItinerary
+        SearchDestination
     ]
 }

@@ -53,6 +53,55 @@
                     }
                 }
             }
+        },
+        "/v1/search-destination": {
+            "get": {
+                "description": "This is to return search destination",
+                "operationId": "SearchDestination",
+                "parameters": [
+                    {
+                        "name": "effectiveOn",
+                        "in": "query",
+                        "description": "Names of locations, cities, districts, places, countries, counties etc.",
+                        "schema": {
+                            "type": "string",
+                            "description": "Names of locations, cities, districts, places, countries, counties etc."
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "SearchDestination 200 response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/SearchDestinationResponseContent"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "NotFoundException 404 response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/NotFoundExceptionResponseContent"
+                                }
+                            }
+                        }
+                    },
+                    "501": {
+                        "description": "TerminalException 501 response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/TerminalExceptionResponseContent"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "components": {
@@ -97,10 +146,39 @@
                     "dayNumber"
                 ]
             },
+            "Destination": {
+                "type": "object",
+                "properties": {
+                    "destId": {
+                        "type": "string"
+                    },
+                    "destType": {
+                        "type": "string"
+                    },
+                    "cityName": {
+                        "type": "string"
+                    },
+                    "label": {
+                        "type": "string"
+                    },
+                    "region": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "country": {
+                        "type": "string"
+                    },
+                    "imageUrl": {
+                        "type": "string"
+                    }
+                }
+            },
             "GetItineraryRequestContent": {
                 "type": "object",
                 "properties": {
-                    "destination": {
+                    "destId": {
                         "type": "string"
                     },
                     "startDate": {
@@ -113,14 +191,10 @@
                     },
                     "numOfPeople": {
                         "type": "number"
-                    },
-                    "country": {
-                        "type": "string"
                     }
                 },
                 "required": [
-                    "country",
-                    "destination",
+                    "destId",
                     "endDate",
                     "numOfPeople",
                     "startDate"
@@ -189,6 +263,17 @@
                 "required": [
                     "name"
                 ]
+            },
+            "SearchDestinationResponseContent": {
+                "type": "object",
+                "properties": {
+                    "destinations": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Destination"
+                        }
+                    }
+                }
             },
             "TerminalExceptionResponseContent": {
                 "type": "object",

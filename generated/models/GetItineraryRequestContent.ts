@@ -3,10 +3,9 @@
 /* tslint:disable */
 /* eslint-disable */
 export type GetItineraryRequestContent = {
-    destination: string;
+    destId: string;
     startDate: string;
     endDate: string;
     numOfPeople: number;
-    country: string;
 };
 
