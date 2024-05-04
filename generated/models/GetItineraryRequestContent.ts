@@ -2,8 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { Destination } from './Destination';
 export type GetItineraryRequestContent = {
-    destId: string;
+    destination: Destination;
     startDate: string;
     endDate: string;
     numOfPeople: number;

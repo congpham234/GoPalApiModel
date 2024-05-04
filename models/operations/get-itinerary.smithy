@@ -20,7 +20,7 @@ operation GetItinerary {
 @input
 structure GetItineraryRequest {
   @required
-  destId: String
+  destination: Destination
   @required
   startDate: Date
   @required

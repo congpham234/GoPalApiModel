@@ -178,8 +178,8 @@
             "GetItineraryRequestContent": {
                 "type": "object",
                 "properties": {
-                    "destId": {
-                        "type": "string"
+                    "destination": {
+                        "$ref": "#/components/schemas/Destination"
                     },
                     "startDate": {
                         "type": "string",
@@ -194,7 +194,7 @@
                     }
                 },
                 "required": [
-                    "destId",
+                    "destination",
                     "endDate",
                     "numOfPeople",
                     "startDate"
