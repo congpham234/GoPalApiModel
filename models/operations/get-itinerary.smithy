@@ -32,6 +32,7 @@ structure GetItineraryRequest {
 @output
 structure GetItineraryResponse {
   placesToStay: PlacesToStay
+  @required
   planningDays: Days
 }
 

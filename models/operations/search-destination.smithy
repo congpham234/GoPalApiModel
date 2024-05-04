@@ -20,7 +20,7 @@ operation SearchDestination {
 
 @input
 structure SearchDestinationRequest {
-  @httpQuery("effectiveOn")
+  @httpQuery("query")
   @documentation("Names of locations, cities, districts, places, countries, counties etc.")
   query: String
 }
