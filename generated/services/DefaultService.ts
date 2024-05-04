@@ -31,18 +31,18 @@ export class DefaultService {
     }
     /**
      * This is to return search destination
-     * @param effectiveOn Names of locations, cities, districts, places, countries, counties etc.
+     * @param query Names of locations, cities, districts, places, countries, counties etc.
      * @returns SearchDestinationResponseContent SearchDestination 200 response
      * @throws ApiError
      */
     public searchDestination(
-        effectiveOn?: string,
+        query?: string,
     ): CancelablePromise<SearchDestinationResponseContent> {
         return this.httpRequest.request({
             method: 'GET',
             url: '/v1/search-destination',
             query: {
-                'effectiveOn': effectiveOn,
+                'query': query,
             },
             errors: {
                 404: `NotFoundException 404 response`,

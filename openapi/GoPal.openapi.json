@@ -60,7 +60,7 @@
                 "operationId": "SearchDestination",
                 "parameters": [
                     {
-                        "name": "effectiveOn",
+                        "name": "query",
                         "in": "query",
                         "description": "Names of locations, cities, districts, places, countries, counties etc.",
                         "schema": {
@@ -223,7 +223,10 @@
                             "$ref": "#/components/schemas/Day"
                         }
                     }
-                }
+                },
+                "required": [
+                    "planningDays"
+                ]
             },
             "NotFoundExceptionResponseContent": {
                 "type": "object",

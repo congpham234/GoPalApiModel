@@ -6,6 +6,6 @@ import type { Day } from './Day';
 import type { PlaceToStay } from './PlaceToStay';
 export type GetItineraryResponseContent = {
     placesToStay?: Array<PlaceToStay>;
-    planningDays?: Array<Day>;
+    planningDays: Array<Day>;
 };
 
