@@ -13,6 +13,7 @@ export type { OpenAPIConfig } from './core/OpenAPI';
 export type { Activity } from './models/Activity';
 export type { Day } from './models/Day';
 export type { Destination } from './models/Destination';
+export type { GetBeerResponseContent } from './models/GetBeerResponseContent';
 export type { GetItineraryRequestContent } from './models/GetItineraryRequestContent';
 export type { GetItineraryResponseContent } from './models/GetItineraryResponseContent';
 export type { NotFoundExceptionResponseContent } from './models/NotFoundExceptionResponseContent';

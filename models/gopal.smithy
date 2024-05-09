@@ -10,6 +10,7 @@ use aws.protocols#restJson1
 service GoPal {
     version: "2024-05-01"
     operations: [
+        GetBeer
         GetItinerary
         SearchDestination
     ]

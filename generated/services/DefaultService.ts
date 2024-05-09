@@ -2,6 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { GetBeerResponseContent } from '../models/GetBeerResponseContent';
 import type { GetItineraryRequestContent } from '../models/GetItineraryRequestContent';
 import type { GetItineraryResponseContent } from '../models/GetItineraryResponseContent';
 import type { SearchDestinationResponseContent } from '../models/SearchDestinationResponseContent';
@@ -9,6 +10,23 @@ import type { CancelablePromise } from '../core/CancelablePromise';
 import type { BaseHttpRequest } from '../core/BaseHttpRequest';
 export class DefaultService {
     constructor(public readonly httpRequest: BaseHttpRequest) {}
+    /**
+     * This is a health check api
+     * @param query
+     * @returns GetBeerResponseContent GetBeer 200 response
+     * @throws ApiError
+     */
+    public getBeer(
+        query?: string,
+    ): CancelablePromise<GetBeerResponseContent> {
+        return this.httpRequest.request({
+            method: 'GET',
+            url: '/v1/get-beer',
+            query: {
+                'query': query,
+            },
+        });
+    }
     /**
      * This API returns an AI generated trip planning from input
      * @param requestBody

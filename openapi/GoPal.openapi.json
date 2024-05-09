@@ -6,6 +6,33 @@
         "description": "Provides GoPal API Model"
     },
     "paths": {
+        "/v1/get-beer": {
+            "get": {
+                "description": "This is a health check api",
+                "operationId": "GetBeer",
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "GetBeer 200 response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/GetBeerResponseContent"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "/v1/get-itinerary": {
             "post": {
                 "description": "This API returns an AI generated trip planning from input",
@@ -182,6 +209,14 @@
                     "label",
                     "name"
                 ]
+            },
+            "GetBeerResponseContent": {
+                "type": "object",
+                "properties": {
+                    "beer": {
+                        "type": "string"
+                    }
+                }
             },
             "GetItineraryRequestContent": {
                 "type": "object",
