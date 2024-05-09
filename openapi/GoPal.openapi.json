@@ -10,15 +10,6 @@
             "get": {
                 "description": "This is a health check api",
                 "operationId": "GetBeer",
-                "parameters": [
-                    {
-                        "name": "query",
-                        "in": "query",
-                        "schema": {
-                            "type": "string"
-                        }
-                    }
-                ],
                 "responses": {
                     "200": {
                         "description": "GetBeer 200 response",

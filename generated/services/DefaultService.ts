@@ -12,19 +12,13 @@ export class DefaultService {
     constructor(public readonly httpRequest: BaseHttpRequest) {}
     /**
      * This is a health check api
-     * @param query
      * @returns GetBeerResponseContent GetBeer 200 response
      * @throws ApiError
      */
-    public getBeer(
-        query?: string,
-    ): CancelablePromise<GetBeerResponseContent> {
+    public getBeer(): CancelablePromise<GetBeerResponseContent> {
         return this.httpRequest.request({
             method: 'GET',
             url: '/v1/get-beer',
-            query: {
-                'query': query,
-            },
         });
     }
     /**

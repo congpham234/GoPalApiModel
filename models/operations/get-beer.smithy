@@ -10,14 +10,7 @@ namespace gopal
 )
 @documentation("This is a health check api")
 operation GetBeer {
-  input: GetBeerRequest
   output: GetBeerResponse
-}
-
-@input
-structure GetBeerRequest {
-  @httpQuery("query")
-  query: String
 }
 
 @output
