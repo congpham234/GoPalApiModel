@@ -21,10 +21,9 @@
   },
   "homepage": "https://github.com/congpham234/GoPalApiModel#readme",
   "devDependencies": {
-    "openapi-typescript-codegen": "^0.29.0"
-  },
-  "dependencies": {
-    "shelljs": "^0.8.5",
-    "openapi-typescript-codegen": "^0.29.0"
+    "@hey-api/openapi-ts": "^0.43.2",
+    "fs-extra": "^11.2.0",
+    "openapi-ts": "^0.3.4",
+    "shelljs": "^0.8.5"
   }
 }
