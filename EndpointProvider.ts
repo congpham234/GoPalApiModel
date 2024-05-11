@@ -1,14 +1,14 @@
-export enum Stage {
-  alpha = 'alpha',
+export const Stage = {
+  alpha: 'alpha'
 }
 
-export enum Region {
-  usWest2 = 'us-west-2',
+export const Region = {
+  usWest2: 'us-west-2',
 }
 
 export class EndpointProvider {
   // Define the endpoint table as a static property if no instance-specific data is required
-  private static endpointTable = new Map<string, Map<string, string>>();
+  private static endpointTable = new Map<string, Map<String, string>>();
 
   constructor() {
     // Initialize the endpoint table in the constructor or a static initializer
@@ -16,15 +16,15 @@ export class EndpointProvider {
   }
 
   // Static method to set values in the table
-  private static setEndpoint(stage: Stage, region: Region, url: string): void {
+  private static setEndpoint(stage: string, region: string, url: string): void {
     if (!this.endpointTable.has(stage)) {
-      this.endpointTable.set(stage, new Map<Region, string>());
+      this.endpointTable.set(stage, new Map<string, string>());
     }
     this.endpointTable.get(stage)?.set(region, url);
   }
 
   // Static method to get endpoints
-  public static getEndpoint(stage: Stage, region: Region): string | undefined {
+  public static getEndpoint(stage: string, region: string): string | undefined {
     return this.endpointTable.get(stage)?.get(region);
   }
 }
