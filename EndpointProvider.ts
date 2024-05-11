@@ -7,13 +7,12 @@ export const Region = {
 }
 
 export class EndpointProvider {
-  // Define the endpoint table as a static property if no instance-specific data is required
-  private static endpointTable = new Map<string, Map<String, string>>();
-
-  constructor() {
-    // Initialize the endpoint table in the constructor or a static initializer
-    EndpointProvider.setEndpoint(Stage.alpha, Region.usWest2, "https://tn50uc6px2.execute-api.us-west-2.amazonaws.com/prod");
-  }
+  // Define the endpoint table as a static property and initialize directly
+  private static endpointTable = new Map<string, Map<string, string>>([
+    [Stage.alpha, new Map<string, string>([
+      [Region.usWest2, "https://tn50uc6px2.execute-api.us-west-2.amazonaws.com/prod"]
+    ])]
+  ]);
 
   // Static method to set values in the table
   private static setEndpoint(stage: string, region: string, url: string): void {
