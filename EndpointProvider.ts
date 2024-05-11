@@ -8,11 +8,11 @@ export enum Region {
 
 export class EndpointProvider {
   // Define the endpoint table as a static property if no instance-specific data is required
-  private static endpointTable = new Map<Stage, Map<Region, string>>();
+  private static endpointTable = new Map<string, Map<string, string>>();
 
   constructor() {
     // Initialize the endpoint table in the constructor or a static initializer
-    EndpointProvider.setEndpoint(Stage.alpha, Region.usWest2, "https://tn50uc6px2.execute-api.us-west-2.amazonaws.com/prod/");
+    EndpointProvider.setEndpoint(Stage.alpha, Region.usWest2, "https://tn50uc6px2.execute-api.us-west-2.amazonaws.com/prod");
   }
 
   // Static method to set values in the table
