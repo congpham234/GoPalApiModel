@@ -1,16 +1,14 @@
-/* istanbul ignore file */
 export const Stage = {
   alpha: 'alpha'
-};
+}
 
 export const Region = {
   usWest2: 'us-west-2',
-};
+}
 
-/* eslint-disable */
 export class EndpointProvider {
   // Define the endpoint table as a static property if no instance-specific data is required
-  static endpointTable = new Map();
+  private static endpointTable = new Map<string, Map<String, string>>();
 
   constructor() {
     // Initialize the endpoint table in the constructor or a static initializer
@@ -18,15 +16,15 @@ export class EndpointProvider {
   }
 
   // Static method to set values in the table
-  static setEndpoint(stage, region, url) {
+  private static setEndpoint(stage: string, region: string, url: string): void {
     if (!this.endpointTable.has(stage)) {
-      this.endpointTable.set(stage, new Map());
+      this.endpointTable.set(stage, new Map<string, string>());
     }
-    this.endpointTable.get(stage).set(region, url);
+    this.endpointTable.get(stage)?.set(region, url);
   }
 
   // Static method to get endpoints
-  static getEndpoint(stage, region) {
-    return this.endpointTable.get(stage).get(region);
+  public static getEndpoint(stage: string, region: string): string | undefined {
+    return this.endpointTable.get(stage)?.get(region);
   }
 }

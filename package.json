@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/congpham234/GoPalApiModel#readme",
   "dependencies": {
+    "esbuild-loader": "^4.1.0",
+    "ts-loader": "^9.5.1",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
