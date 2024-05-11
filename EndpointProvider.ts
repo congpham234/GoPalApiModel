@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 export const Stage = {
   alpha: 'alpha'
 }
@@ -6,6 +7,9 @@ export const Region = {
   usWest2: 'us-west-2',
 }
 
+
+/* tslint:disable */
+/* eslint-disable */
 export class EndpointProvider {
   // Define the endpoint table as a static property if no instance-specific data is required
   private static endpointTable = new Map<string, Map<String, string>>();

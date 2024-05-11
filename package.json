@@ -20,6 +20,9 @@
     "url": "https://github.com/congpham234/GoPalApiModel/issues"
   },
   "homepage": "https://github.com/congpham234/GoPalApiModel#readme",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
   "devDependencies": {
     "@hey-api/openapi-ts": "^0.43.2",
     "fs-extra": "^11.2.0",
