@@ -11,6 +11,7 @@ export { OpenAPI } from './core/OpenAPI';
 export type { OpenAPIConfig } from './core/OpenAPI';
 
 export type { Activity } from './models/Activity';
+export type { ActivityDetail } from './models/ActivityDetail';
 export type { Day } from './models/Day';
 export type { Destination } from './models/Destination';
 export type { GetBeerResponseContent } from './models/GetBeerResponseContent';

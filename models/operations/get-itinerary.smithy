@@ -73,5 +73,16 @@ structure Activity {
   location: String
   @required
   description: String
-  locationImageUrl: String
+  detail: ActivityDetail
+}
+
+structure ActivityDetail {
+  photoUri: String
+  latitude: Integer
+  longitude: Integer
+  goodForChildren: Boolean
+  allowsDogs: Boolean
+  wheelchairAccessibleParking: Boolean
+  wheelchairAccessibleEntrance: Boolean
+  websiteUri: String
 }

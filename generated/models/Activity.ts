@@ -2,10 +2,11 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { ActivityDetail } from './ActivityDetail';
 export type Activity = {
     activityName: string;
     location: string;
     description: string;
-    locationImageUrl?: string;
+    detail?: ActivityDetail;
 };
 
