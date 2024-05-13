@@ -1,6 +1,6 @@
 {
   "name": "gopalapimodel",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "This package is to generate GoPalApiModel as well as provide client endpoint for connecting to GoPalBackend",
   "bin": {
     "generate-open-api-doc": "bin/generate-open-api-doc.js",
