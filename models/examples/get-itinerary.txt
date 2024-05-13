@@ -1,63 +1,62 @@
 // Input
 {
-  "destination":     {
-      "label": "Ho Chi Minh City, Ho Chi Minh Municipality, Vietnam",
-      "region": "Ho Chi Minh Municipality",
-      "name": "Ho Chi Minh City",
-      "country": "Vietnam",
-      "destId": "-3730078",
+  "destination": {
+      "destId": "-235402",
       "destType": "city",
-      "cityName": "Ho Chi Minh City",
-      "imageUrl": "https://cf.bstatic.com/xdata/images/city/150x150/688892.jpg?k=ab98c6d1cae80333bbd3129cfeb692f9fd1b17caa359d2fb4fdf35a4160e5ccf&o="
+      "cityName": "Kyoto",
+      "label": "Kyoto, Kyoto, Japan",
+      "region": "Kyoto",
+      "name": "Kyoto",
+      "country": "Japan",
+      "imageUrl": "https://cf.bstatic.com/xdata/images/city/150x150/971331.jpg?k=8f6fba75234ab353af857cd3e21f1ba37508b4ef3269e212c2e2f08f13797306&o="
     },
   "startDate": "2024-05-30",
   "endDate": "2024-06-02",
   "numOfPeople": 1
 }
 
-
 // Output
 {
   "placesToStay": [
     {
-      "name": "Coast Casa Landmark 81",
-      "reviewScore": 10,
-      "reviewCount": 3,
-      "suggestedPrice": 231.228876358941,
+      "name": "Hotel Liberte Kyoto Gojo",
+      "reviewScore": 8.9,
+      "reviewCount": 277,
+      "suggestedPrice": 475.021968520962,
       "currency": "USD",
-      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/550984545.jpg?k=9259a9d3c93bdc46a4f9345c72f67528edb540bcc19156a21b7c1e889b06420c&o="
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/465540638.jpg?k=a6658051749cf9caf2e58694fc7602038c998de5dd66dc786f4ed9450c1c8db1&o="
     },
     {
-      "name": "Shogun Hotel",
+      "name": "Kyoto Hana Hostel",
+      "reviewScore": 8.5,
+      "reviewCount": 1605,
+      "suggestedPrice": 76.9823194949591,
+      "currency": "USD",
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/314751257.jpg?k=f22657a5e9463ee5acdcad643e60779d82052f821631aec752178d8285abef1d&o="
+    },
+    {
+      "name": "Mini Inn Kyoto 京都 - 外国人向け - 日本人予約不可",
+      "reviewScore": 8.3,
+      "reviewCount": 58,
+      "suggestedPrice": 60.9443362668427,
+      "currency": "USD",
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/520400899.jpg?k=6660808eeb2a9c917c4d7614fc7f9a554d808fbf0f6bd6292d4a895e68ed033c&o="
+    },
+    {
+      "name": "Guest House Hitsujian",
       "reviewScore": 9.1,
-      "reviewCount": 218,
-      "suggestedPrice": 47.2133338603666,
+      "reviewCount": 304,
+      "suggestedPrice": 69.2840875454632,
       "currency": "USD",
-      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/494872778.jpg?k=9b89cf2d6b5b9f94e5894cd21b7027caec13a8351f7ee6a688321c7c1ec43fdc&o="
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/140818759.jpg?k=50eb2de52db5c9bfd78ea731a4f96b722beb6f9bf636b8d66366388d477c4ecb&o="
     },
     {
-      "name": "Galaxy Boutique Sai Gon Central Hotel",
-      "reviewScore": 8,
-      "reviewCount": 669,
-      "suggestedPrice": 56.05,
+      "name": "Guesthouse Soi",
+      "reviewScore": 9.6,
+      "reviewCount": 639,
+      "suggestedPrice": 84.0390321153304,
       "currency": "USD",
-      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/410511403.jpg?k=367e4a1c87aec0c87bd7d138051ac68c3dc2221499e7d52b04178fcc6471e821&o="
-    },
-    {
-      "name": "G9 Homestay - Đề Thám",
-      "reviewScore": 8.8,
-      "reviewCount": 242,
-      "suggestedPrice": 106.033278961407,
-      "currency": "USD",
-      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/443155154.jpg?k=9059a3378bbd1bd93ba1cdca8c2d0585159f48991623363ce5680d750a5d087b&o="
-    },
-    {
-      "name": "Alex House Saigon - Serviced Apartment",
-      "reviewScore": 8.2,
-      "reviewCount": 194,
-      "suggestedPrice": 85.5151509545889,
-      "currency": "USD",
-      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/255871267.jpg?k=e120f6f3d7c6c0c00e3ec32bc8775263678badfb1c761e25291f9dd6ca998460&o="
+      "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/square60/396522439.jpg?k=e3266e7e9f42c76189ea7c7b80a6c9bc36d50167a69220896d1e02b18a825d21&o="
     }
   ],
   "planningDays": [
@@ -65,19 +64,36 @@
       "dayNumber": 1,
       "activities": [
         {
-          "activityName": "Visiting the War Remnants Museum",
-          "location": "War Remnants Museum",
-          "description": "Learn about the Vietnam War and its impact on the country through exhibits and displays at this museum."
+          "activityName": "Visit Kinkaku-ji",
+          "location": "Kinkaku-ji Temple",
+          "description": "Kinkaku-ji, also known as the Golden Pavilion, is a Zen Buddhist temple in Kyoto. It is one of the most popular tourist attractions in Japan, famous for its stunning golden exterior."
         },
         {
-          "activityName": "Exploring Ben Thanh Market",
-          "location": "Ben Thanh Market",
-          "description": "Shop for souvenirs, local goods, and enjoy delicious street food in this bustling market."
+          "activityName": "Explore Arashiyama Bamboo Grove",
+          "location": "Arashiyama",
+          "description": "Arashiyama Bamboo Grove is a natural bamboo forest in the outskirts of Kyoto. It is a peaceful and picturesque spot for a leisurely walk and a great place for photography.",
+          "detail": {
+            "googleMapsUri": "https://maps.google.com/?cid=12369934962818482508",
+            "formattedAddress": "Arashiyama Genrokuzancho, Ukyo Ward, Kyoto, 616-0007, Japan",
+            "latitude": 35.009449,
+            "longitude": 135.666773,
+            "wheelchairAccessibleEntrance": true,
+            "photoUri": "https://lh3.googleusercontent.com/places/ANXAkqHSWjlqwhJABdcme2q-CHThEZLB-y30RCMDSMbmWd6vHR9wQ4KIpz6sIjEl-dg4te5b_u4Nl-TQs4ZP0yl0cqDksFuO2tKQDjg=s4800-w2160-h2880"
+          }
         },
         {
-          "activityName": "Taking a stroll along Nguyen Hue Walking Street",
-          "location": "Nguyen Hue Walking Street",
-          "description": "Experience the lively atmosphere, street performances, and city lights in the evening."
+          "activityName": "Shop and dine at Nishiki Market",
+          "location": "Nishiki Market",
+          "description": "Nishiki Market is a historic food market in downtown Kyoto, known for its wide variety of fresh seafood, produce, and local snacks. Explore the narrow alleys and taste some delicious Japanese street food.",
+          "detail": {
+            "googleMapsUri": "https://maps.google.com/?cid=13159134450370243740",
+            "formattedAddress": "Higashiuoyacho, Nakagyo Ward, Kyoto, 604-8055, Japan",
+            "latitude": 35.0050258,
+            "longitude": 135.764723,
+            "wheelchairAccessibleParking": false,
+            "wheelchairAccessibleEntrance": true,
+            "photoUri": "https://lh3.googleusercontent.com/places/ANXAkqHe6tSGCazJ8kdY0Sfswzz4vbxo7qxzDgL44ciOh0Tes7EOymrhoouojE38MseVHp5NJEu03Z9EynBHX6rcSBBBYHIcxUBPt3w=s4800-w4032-h3024"
+          }
         }
       ]
     },
@@ -85,24 +101,34 @@
       "dayNumber": 2,
       "activities": [
         {
-          "activityName": "Visiting the Reunification Palace",
-          "location": "Reunification Palace",
-          "description": "Explore the former presidential palace and learn about Vietnam's history."
+          "activityName": "Visit Fushimi Inari Taisha",
+          "location": "Fushimi Inari Taisha Shrine",
+          "description": "Fushimi Inari Taisha is a Shinto shrine famous for its thousands of vermillion torii gates that lead to the sacred Mount Inari. The shrine is dedicated to the god of rice and prosperity."
         },
         {
-          "activityName": "Walking around Notre-Dame Cathedral Basilica of Saigon",
-          "location": "Notre-Dame Cathedral Basilica of Saigon",
-          "description": "Admire the stunning architecture of this iconic church in the heart of the city."
+          "activityName": "Explore Kiyomizu-dera",
+          "location": "Kiyomizu-dera Temple",
+          "description": "Kiyomizu-dera is a historic Buddhist temple overlooking Kyoto. It is renowned for its wooden stage that offers panoramic views of the city and its cherry blossoms in spring and colorful foliage in autumn.",
+          "detail": {
+            "googleMapsUri": "https://maps.google.com/?cid=7111013964196361402",
+            "formattedAddress": "1-chōme-294 Kiyomizu, Higashiyama Ward, Kyoto, 605-0862, Japan",
+            "latitude": 34.9946662,
+            "longitude": 135.784661,
+            "wheelchairAccessibleEntrance": true,
+            "photoUri": "https://lh3.googleusercontent.com/places/ANXAkqHM7ymSdEgMMmrCk2MTEjW8VLQS1zwYGMlxwrMPFzzNdRfwQYJZCBfTefRAlD8WMYK0yBhl1cqK3i38-F_QuS-DQ7J1d8zU2XE=s4800-w4032-h2268"
+          }
         },
         {
-          "activityName": "Cruising along Saigon River",
-          "location": "Saigon River",
-          "description": "Enjoy a relaxing cruise along the river with beautiful views of the city skyline."
-        },
-        {
-          "activityName": "Indulging in Vietnamese street food at Saigon Street Eats",
-          "location": "Various street food stalls",
-          "description": "Satisfy your taste buds with an array of delicious local dishes and snacks."
+          "activityName": "Stroll through Gion District",
+          "location": "Gion District",
+          "description": "Gion is Kyoto's famous geisha district, known for its traditional wooden machiya houses, teahouses, and Geiko and Maiko entertainers. Take a leisurely walk and immerse yourself in Kyoto's traditional culture.",
+          "detail": {
+            "googleMapsUri": "https://maps.google.com/?cid=993893271285067700",
+            "formattedAddress": "Gion, Higashiyama Ward, Kyoto, Japan",
+            "latitude": 35.003781599999996,
+            "longitude": 135.777245,
+            "photoUri": "https://lh3.googleusercontent.com/places/ANXAkqEWCGzDA24U4ge8jUC7dxPsyXlf0zXHNpLKT0Kr1M09TmCxy4DZ6t-KbLgYIoJk16zWLtfXqxCTJ6-7bkEBnNLsGUVbdWFpvq0=s4800-w4032-h3024"
+          }
         }
       ]
     },
@@ -110,19 +136,45 @@
       "dayNumber": 3,
       "activities": [
         {
-          "activityName": "Exploring Cu Chi Tunnels",
-          "location": "Cu Chi Tunnels",
-          "description": "Discover the underground network of tunnels used by the Viet Cong during the Vietnam War."
+          "activityName": "Visit Ryoan-ji Temple",
+          "location": "Ryoan-ji Temple",
+          "description": "Ryoan-ji is a Zen temple famous for its dry rock garden, considered a masterpiece of simplicity and tranquility. Take a moment to reflect in the serene surroundings of the temple.",
+          "detail": {
+            "googleMapsUri": "https://maps.google.com/?cid=16261116435795248450",
+            "formattedAddress": "13 Ryōanji Goryōnoshitachō, Ukyo Ward, Kyoto, 616-8001, Japan",
+            "latitude": 35.0344943,
+            "longitude": 135.71826339999998,
+            "wheelchairAccessibleParking": true,
+            "photoUri": "https://lh3.googleusercontent.com/places/ANXAkqGVWSuuzT916bPvVX9LjhoN2XrezP0uOFW2-RkWaUqIPIyEnBM1S_RdnZ-thqY2f5bsm0XwtbuSXUq1ikuPQorCnMJIutyyqJQ=s4800-w4032-h3024"
+          }
         },
         {
-          "activityName": "Visiting Jade Emperor Pagoda",
-          "location": "Jade Emperor Pagoda",
-          "description": "Marvel at the intricate architecture and religious significance of this Taoist pagoda."
+          "activityName": "Explore Nijo Castle",
+          "location": "Nijo Castle",
+          "description": "Nijo Castle is a historic castle in Kyoto, known for its feudal-era architecture, beautiful gardens, and nightingale floors that chirp like birds when walked upon. Discover the rich history of the castle.",
+          "detail": {
+            "googleMapsUri": "https://maps.google.com/?cid=1183188145859604271",
+            "formattedAddress": "541 Nijōjōchō, Nakagyo Ward, Kyoto, 604-8301, Japan",
+            "latitude": 35.0140379,
+            "longitude": 135.7484258,
+            "wheelchairAccessibleParking": true,
+            "wheelchairAccessibleEntrance": true,
+            "photoUri": "https://lh3.googleusercontent.com/places/ANXAkqHccRY0RurLUVh00g_koK0HXNj_eetJ2tQd6XTGTxlvtxRvT_yePSPgDMUqQdW8GuNu7WK72GUiDXqkKT59ypr2JUhHefNdQf4=s4800-w1440-h1080"
+          }
         },
         {
-          "activityName": "Shopping at Saigon Square",
-          "location": "Saigon Square",
-          "description": "Browse through a wide selection of clothing, accessories, and handicrafts at this popular shopping destination."
+          "activityName": "Relax at Kyoto Imperial Palace Park",
+          "location": "Kyoto Imperial Palace Park",
+          "description": "Kyoto Imperial Palace Park is a tranquil oasis in the heart of the city, surrounding the former residence of the Emperor of Japan. Enjoy a peaceful stroll amidst the traditional Japanese gardens.",
+          "detail": {
+            "googleMapsUri": "https://maps.google.com/?cid=2273044684804786517",
+            "formattedAddress": "3 Kyōtogyoen, Kamigyo Ward, Kyoto, 602-0881, Japan",
+            "latitude": 35.0230451,
+            "longitude": 135.76355279999999,
+            "wheelchairAccessibleParking": true,
+            "wheelchairAccessibleEntrance": true,
+            "photoUri": "https://lh3.googleusercontent.com/places/ANXAkqH_XtZ0pMX_TJkdCdseVOeEsz6N4F0FBZ1u_Hvk9GYsKZ5VuFS3esmvsTEbeT-dYtYT2fgLMXFzJEYyXAL_-3uFeYHZ3u9Gtco=s4800-w4080-h3072"
+          }
         }
       ]
     }
