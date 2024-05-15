@@ -212,7 +212,7 @@
                         "type": "string"
                     },
                     "imageUrl": {
-                        "type": "string"
+                        "$ref": "#/components/schemas/ImageUrl"
                     },
                     "region": {
                         "type": "string"
@@ -282,6 +282,17 @@
                 "required": [
                     "planningDays"
                 ]
+            },
+            "ImageUrl": {
+                "type": "object",
+                "properties": {
+                    "url150px": {
+                        "type": "string"
+                    },
+                    "url1000px": {
+                        "type": "string"
+                    }
+                }
             },
             "NotFoundExceptionResponseContent": {
                 "type": "object",

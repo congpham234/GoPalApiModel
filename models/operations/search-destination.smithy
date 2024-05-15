@@ -46,7 +46,12 @@ structure Destination {
   @required
   country: String
   @required
-  imageUrl: String
+  imageUrl: ImageUrl
   region: String
   cityName: String
+}
+
+structure ImageUrl {
+  url150px: String
+  url1000px: String
 }

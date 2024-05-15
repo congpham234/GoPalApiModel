@@ -17,6 +17,7 @@ export type { Destination } from './models/Destination';
 export type { GetBeerResponseContent } from './models/GetBeerResponseContent';
 export type { GetItineraryRequestContent } from './models/GetItineraryRequestContent';
 export type { GetItineraryResponseContent } from './models/GetItineraryResponseContent';
+export type { ImageUrl } from './models/ImageUrl';
 export type { NotFoundExceptionResponseContent } from './models/NotFoundExceptionResponseContent';
 export type { PlaceToStay } from './models/PlaceToStay';
 export type { SearchDestinationResponseContent } from './models/SearchDestinationResponseContent';
