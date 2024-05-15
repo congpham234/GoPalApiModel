@@ -324,7 +324,10 @@
                     "currency": {
                         "type": "string"
                     },
-                    "photoUrl": {
+                    "distanceFromCenter": {
+                        "type": "string"
+                    },
+                    "imageUrl1024x768": {
                         "type": "string"
                     }
                 },

@@ -8,6 +8,7 @@ export type PlaceToStay = {
     reviewCount?: number;
     suggestedPrice?: number;
     currency?: string;
-    photoUrl?: string;
+    distanceFromCenter?: string;
+    imageUrl1024x768?: string;
 };
 

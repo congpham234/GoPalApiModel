@@ -48,7 +48,8 @@ structure PlaceToStay {
   reviewCount: Integer
   suggestedPrice: BigDecimal
   currency: String
-  photoUrl: String
+  distanceFromCenter: String
+  imageUrl1024x768: String
 }
 
 list Days {

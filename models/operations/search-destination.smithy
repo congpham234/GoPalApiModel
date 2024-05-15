@@ -50,8 +50,3 @@ structure Destination {
   region: String
   cityName: String
 }
-
-structure ImageUrl {
-  url150px: String
-  url1000px: String
-}
